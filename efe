@@ -1,0 +1,37 @@
+public class HelloWorld{
+    public static char x = '*';
+    public static void printA(int n){
+        if(n!=0){
+    
+         while( n <= 4){
+            System.out.println(x);
+             
+               n=n+1;
+         } 
+        
+        }else{
+            System.out.println(x);
+        }
+    }
+        public static void printB(int n){
+        if(n!=0){
+    
+         while( n <= 4){
+            System.out.println(x);
+             
+               n=n-1;
+         } 
+        
+        }else{
+            System.out.println("This is not solve ");
+        }
+    }
+            
+        
+
+     public static void main(String []args){
+         HelloWorld myPrint = new HelloWorld();
+         myPrint.printA(1);
+         myPrint.printB(0);
+     }
+}
